@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+	font-weight: 400; 
+}
+
+body {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	margin: 0; 
+}
+body .content-box {
+	background-color: white;
+	height: 80vh;
+	width: 90vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 5em;
+	text-align: center; 
+}
+body .content-box .bold {
+  font-weight: 600;
+}
+body .content-box h3 {
+  padding: 0 5em; 
+}
+body .content-box .services {
+  line-height: 2em; 
+}
+body .content-box .services span {
+	padding: 0 1em;
+	display: inline-block; 
+}
+body .content-box .slider, body .content-box #left-slide, body .content-box #right-slide {
+	display: inline;
+	padding: 1.5em;
+	cursor: pointer; 
+}
+@media screen and (max-width: 600px) {
+    body .content-box {
+    	padding: 2em; }
+    body .content-box h1 {
+        font-size: 1.2em; 
+    }
+    body .content-box h2 {
+        font-size: 0.8em; 
+    }
+    body .content-box h3 {
+        padding: 0;
+        font-size: 0.8em; 
+	} 
+}
+body .border-strip {
+	background-color: #FFBF00;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+}
+body .border-strip a {
+	display: inline-block;
+	font-size: 2em;
+	padding: 1vw;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 600; 
+}
+body .links {
+	justify-content: flex-end;
+	width: 90vw; 
+}
+body .links a {
+  font-size: 1.5em; 
+}
+body .social {
+	text-align: center; 
+}
+
+/*# sourceMappingURL=style.css.map */
